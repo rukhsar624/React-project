@@ -70,7 +70,9 @@
     height: 25px;
     text-align: center;
     width: 25px;
-    }
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    color: #000;
+}
     
     .card-author {
     display: block;
@@ -128,7 +130,7 @@
     .card-tag:hover {
     background: #aaa;
     color: black;
-    }
+    }  
     
     .card-media {
     max-width: 100%;

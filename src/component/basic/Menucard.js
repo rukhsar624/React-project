@@ -12,7 +12,7 @@ const Menucard = ({ menuData }) => {
                                     <div className="card">
                                     <div className="card-body">
                                         <span className="card-number card-circle subtle">{curElem.Id}</span>
-                                        <span className="card-author subtle">{curElem.name}</span>
+                                        <span className="card-author subtle">{curElem.category}</span>
                                         <h2 className="card-title">{curElem.name}</h2>
                                         <span className="card-description subtle">
                                             <p>{curElem.description}</p>
