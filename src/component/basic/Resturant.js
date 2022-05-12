@@ -8,12 +8,13 @@ const Resturant = () => {
   const [menuData, setMenuData] = useState(Menu);
   
   
-  const fliterItem = (category) => {
+  const fliterItem = (category ) => {
     const updatedList = Menu.filter((curElem) => {
-      return curElem.category === category 
+      return curElem.category == category ;
     
       
     });
+   
     
     setMenuData(updatedList);
   };
@@ -31,7 +32,7 @@ const Resturant = () => {
         <button className="btn-group__item" onClick={() => fliterItem("lunch")}>Lunch</button>
         <button className="btn-group__item" onClick={() => fliterItem("dinner")}>Dinner</button>
         <button className="btn-group__item" onClick={() => fliterItem("Snacks")}>Snacks</button>
-        <button className="btn-group__item" onClick={() => setMenuData("Menu")}>All</button>
+        <button className="btn-group__item" onClick={() => setMenuData(Menu)}>All</button>
         {/* <button className="btn-group__item" onClick={() => menuData}>All</button> */}
         {/* onClick={()=>setMenuData("Menu")} */}
       </nav>

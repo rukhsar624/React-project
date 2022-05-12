@@ -5,12 +5,12 @@ const Menu = [
   name:"Biryani",
   category:"lunch",
   price:"$25",
-  // type:"A",
+  type:"A",
   description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea odit incidunt Lorem ipsum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea odit inciduntdolor sit, amet consectetur adipisicing elit. Ea odit incidunt",
   },
   {
   Id:2,
-  // type:"A",
+  type:"A",
   image:"images/sindhi-biryani.jpg",
   name:"Sindhi-Biryani",
   category:"lunch",
@@ -19,7 +19,7 @@ const Menu = [
    },
    {
      Id:3,
-    //  type:"A",
+     type:"A",
      image:"images/download.jpg",
      name:"Samosa",
      category:"Snacks",
@@ -28,7 +28,7 @@ const Menu = [
    },
    {
      Id:4,
-    //  type:"A",
+     type:"A",
      image:"images/roll.jpg",
      name:"Roll",
      category:"Snacks",
